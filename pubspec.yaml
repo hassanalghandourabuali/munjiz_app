@@ -1,0 +1,52 @@
+name: munjiz
+description: مُنجز — إدارة المشاريع الجماعية للطلاب
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  intl: ^0.18.1
+  file_picker: ^6.1.1
+  share_plus: ^7.2.1
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.19
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+  assets:
+    - assets/splash/splash_logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+flutter_native_splash:
+  color: "#253D3A"
+  image: assets/icon/icon.png
+  android_12:
+    color: "#253D3A"
+    image: assets/icon/icon.png
